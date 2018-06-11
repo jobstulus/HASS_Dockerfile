@@ -78,18 +78,5 @@ script: !include scripts.yaml
 #Evaluation Python scripts
 python_script:
 
-#Evaluation e-mail notifier
-notify:
-  - name: E_MAIL_Notifier
-    platform: smtp
-    server: smtp.gmail.com
-    port: 587
-    timeout: 15
-    sender: sensorikbayern.homeassistant@gmail.com
-    encryption: starttls
-    username: sensorikbayern.homeassistant@gmail.com
-    password: Sensorik2020
-    recipient: s.jobstmann@sensorik-bayern.de
-    sender_name: Sensorik Home Assistant
 
 logger:
